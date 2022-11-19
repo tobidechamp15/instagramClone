@@ -7,6 +7,7 @@
     border-left-width: 0px;
     border-right-width: 0px;
     padding-bottom: 10px;
+    width: 100%;
 }
 .custom-profile{
     width: 24px;
@@ -17,4 +18,19 @@
 }
 .custom-side-list{
     width: fit-content;
+}
+.custom-des-sidebar{
+    width: fit-content;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+}
+.custom-des-body{
+    padding-left: 24px;
+}
+.img-size{
+    width: 54px;
+        height: 24px;
 }
