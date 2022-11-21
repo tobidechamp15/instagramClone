@@ -39,6 +39,7 @@
 
 .custom-des-body {
     padding-left: 79px;
+    background-color: #fafafa;
 }
 
 .img-size {
@@ -51,4 +52,29 @@
     width: 24px;
     height: 24px;
     border-radius: 100%;
+}
+.custom-story-block{
+    width: fit-content;
+}
+.custom-insta-story{
+    list-style: none;
+    overflow: scroll;
+}
+.custom-story-imgs{
+    border-radius: 100%;
+    width: 56px;
+}
+@media screen and (max-width: 768px) {
+    .custom-home-body{
+        width: 100%;
+    }
+    .custom-insta-story{
+        width: 100%;
+        padding-left: 16px;
+        display: flex;
+        align-items: center;
+    }
+    .custom-story-block{
+        width: 100% !important;
+    }
 }
