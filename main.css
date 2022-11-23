@@ -55,18 +55,52 @@
 }
 .custom-story-block{
     width: fit-content;
+    padding: 16px 0 16px 0;
+    background-color: #ffffff;
+    border-color: #dbdbdb;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+}
+.custom-left-side{
+    margin-top: 30px;
+    width: 50%;
 }
 .custom-insta-story{
     list-style: none;
     overflow: scroll;
 }
+.custom-story-cont{
+    background-color: linear-gradient(to right, red, orange);
+}
 .custom-story-imgs{
     border-radius: 100%;
-    width: 56px;
+    width: 76px;
+    border-color: nn;
+        border-width: 4px;
+        border-style: solid;
+        padding: 3px;
+}
+.custom-single-story{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: Segoe UI;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
 }
 @media screen and (max-width: 768px) {
     .custom-home-body{
         width: 100%;
+    }
+    .custom-des-body{
+        padding-left: 0;
+        padding-top: 24px;
     }
     .custom-insta-story{
         width: 100%;
@@ -76,5 +110,8 @@
     }
     .custom-story-block{
         width: 100% !important;
+    }
+    .custom-left-side{
+        width: 100%;
     }
 }
