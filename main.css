@@ -10,20 +10,20 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    box-shadow: #6070ff;
+    box-shadow: #DBDBDB;
     border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #6070ff;
+    background: #DBDBDB;
     border-radius: 10px;
 }
 
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #6070ff;
+    background: #DBDBDB;
 }
 
 .custom-navbar {
