@@ -2,6 +2,30 @@
     box-sizing: border-box;
 }
 
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: #6070ff;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6070ff;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #6070ff;
+}
+
 .custom-navbar {
     border: 1px #DBDBDB solid;
     border-top-width: 0px;
@@ -18,7 +42,7 @@
 
 .custom-unlist {
     width: fit-content;
-    gap: 30px;    
+    gap: 30px;
     padding-right: 12px;
     padding-left: 12px !important;
     align-items: center;
@@ -45,7 +69,6 @@
 .img-size {
     width: 54px;
     height: 24px;
-
 }
 
 .gmail-size {
@@ -53,7 +76,8 @@
     height: 24px;
     border-radius: 100%;
 }
-.custom-story-block{
+
+.custom-story-block {
     width: fit-content;
     padding: 16px 0 16px 0;
     background-color: #ffffff;
@@ -62,26 +86,32 @@
     border-style: solid;
     border-width: 1px;
 }
-.custom-left-side{
+
+.custom-left-side {
     margin-top: 30px;
     width: 50%;
 }
-.custom-insta-story{
+
+.custom-insta-story {
     list-style: none;
     overflow: scroll;
 }
-.custom-story-cont{
-    background-color: linear-gradient(to right, red, orange);
+
+.custom-story-cont {
+    background: linear-gradient(to right, red, orange);
+    border-radius: 100%;
 }
-.custom-story-imgs{
+
+.custom-story-imgs {
     border-radius: 100%;
     width: 76px;
-    border-color: nn;
-        border-width: 4px;
-        border-style: solid;
-        padding: 3px;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    padding: 3px;
 }
-.custom-single-story{
+
+.custom-single-story {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -94,24 +124,90 @@
     line-height: 12px;
     font-weight: 400;
 }
+
+.custom-fir-logo{
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+}
+.custom-menu{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.fir-post{
+    background-color: #ffffff;
+    padding: 5px 0px 16px 0px ;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+}
+.fir-post-top{
+    padding-left: 10px;
+}
+.custom-profle-post{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.custom-location{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+.custom-fir-post{
+    width: 100%;
+}
+.post-profile{
+    font-size:  14px;
+}
+.save-btn{
+    height: fit-content;
+}
+
+.comment-name{
+    font-weight: 600;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.custom-comment{
+    font-size:14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.view-comments{
+    color: rgb(142, 142, 142);
+    font-size: 14px;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.custom-split{
+    height: 1px;
+    background-color: #dbdbdb;
+}
 @media screen and (max-width: 768px) {
-    .custom-home-body{
+    .custom-home-body {
         width: 100%;
     }
-    .custom-des-body{
+
+    .custom-des-body {
         padding-left: 0;
         padding-top: 24px;
     }
-    .custom-insta-story{
+
+    .custom-insta-story {
         width: 100%;
         padding-left: 16px;
         display: flex;
         align-items: center;
     }
-    .custom-story-block{
+
+    .custom-story-block {
         width: 100% !important;
     }
-    .custom-left-side{
+
+    .custom-left-side {
         width: 100%;
     }
 }
