@@ -15,7 +15,7 @@ Bootstrap
 
 ## Live Demo
 
-[Live Demo](https://app.netlify.com/sites/champ-ig-clone)
+[Live Demo](https://champ-ig-clone.netlify.app/)
 
 ### Prerequisites
 
