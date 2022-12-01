@@ -89,6 +89,7 @@
 
 .custom-left-side {
     margin-top: 30px;
+    padding-left: 30px;
     width: 50%;
 }
 
@@ -125,19 +126,21 @@
     font-weight: 400;
 }
 
-.custom-fir-logo{
+.custom-fir-logo {
     border-radius: 100%;
     width: 32px;
     height: 32px;
 }
-.custom-menu{
+
+.custom-menu {
     width: 24px;
     height: 24px;
     cursor: pointer;
 }
-.fir-post{
+
+.fir-post {
     background-color: #ffffff;
-    padding: 5px 0px 16px 0px ;
+    padding: 5px 0px 16px 0px;
     padding-left: 0px !important;
     padding-right: 0px !important;
     border-radius: 8px;
@@ -145,47 +148,103 @@
     border-width: 1px;
     border-color: #dbdbdb;
 }
-.fir-post-top{
+
+.fir-post-top {
     padding-left: 10px;
 }
-.custom-profle-post{
+
+.custom-profle-post {
     text-decoration: none;
     font-size: 14px;
     color: black;
 }
-.custom-location{
+
+.custom-location {
     font-size: 12px;
     color: black;
     text-decoration: none;
 }
-.custom-fir-post{
+
+.custom-fir-post {
     width: 100%;
 }
-.post-profile{
-    font-size:  14px;
+
+.post-profile {
+    font-size: 14px;
 }
-.save-btn{
+
+.save-btn {
     height: fit-content;
 }
 
-.comment-name{
+.comment-name {
     font-weight: 600;
     font-size: 14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.custom-comment{
-    font-size:14px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+.custom-comment {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.view-comments{
+
+.view-comments {
     color: rgb(142, 142, 142);
     font-size: 14px;
-    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.custom-split{
+
+.custom-split {
     height: 1px;
     background-color: #dbdbdb;
 }
+
+.right-profile {
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+}
+
+.username {
+    color: rgb(38, 38, 38);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.ig-name {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 18px;
+    color: rgb(142, 142, 142);
+}
+
+.acc-switch {
+    font-weight: 600;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4BB3F7;
+    font-size: 12px;
+}
+
+.suggest {
+    color: rgb(142, 142, 142);
+    font-weight: 600;
+    line-height: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.see-all {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(38, 38, 38);
+}
+
 @media screen and (max-width: 768px) {
     .custom-home-body {
         width: 100%;
@@ -209,5 +268,6 @@
 
     .custom-left-side {
         width: 100%;
+        padding-left: 0;
     }
 }
